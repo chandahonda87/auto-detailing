@@ -1,0 +1,98 @@
+@import '../../app.scss';
+
+.service {
+ 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textContainer {
+  flex: 1;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .autoHr {
+    font-weight: 600;
+  }
+
+  hr {
+    width: 200px;
+    border-color: rgb(47, 161, 209);
+
+    @include mobile {
+      width: 100px;
+    }
+  }
+
+
+}
+
+.bw-title {
+  @include mobile {
+    font-size: small;
+    color: blue
+  }
+}
+
+.icon-container {
+  display: flex;
+  margin-left: 30px; /* Aligns items to the right */
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Adjusting for vertical layout */
+
+  h1 {
+    font-size: 50px;
+    font-weight: 600;
+
+    @include mobile {
+      font-size: 12px;;
+    }
+  }
+
+ 
+
+   img {
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+    object-fit: cover;
+  }
+}
+
+.listContainer {
+  flex: 2;
+  display: flex;
+  max-width: 1366px;
+  margin: auto;
+ 
+  @include mobile {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .box {
+    padding: 50px;
+    border: 0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+  }
+
+
+}
+
+
+
+
+
+
+  

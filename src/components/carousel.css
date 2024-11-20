@@ -1,0 +1,76 @@
+/* carousel.css */
+.carousel-container {
+    width: 100%;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-image {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: transparent; /* Ensure no background color */
+    border-radius: 0;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    outline: none; /* Remove focus outline */
+    box-shadow: none; /* Remove any box shadow on focus */
+}
+
+/* Default color for arrows */
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+    color: black;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Hover effect for arrows */
+.slick-prev:hover::before, .slick-next:hover::before {
+    color: rgba(176, 45, 45, 0.8); /* Change arrow color on hover */
+}
+
+/* Click effect for arrows */
+.slick-prev:active::before, .slick-next:active::before {
+    color: rgba(16, 12, 231, 0.5); /* Change arrow color on click */
+}
+
+.slick-dots {
+    bottom: 10px;
+}
+
+.slick-dots li button:before {
+    color: rgb(165, 47, 47);
+}
+
+/* Hover effect for dots */
+.slick-dots li button:hover:before {
+    color: yellow; /* Change color of dots on hover */
+}
+
+
+
+
+@media (max-width: 640px) {
+    .carousel-container {
+      max-width: 100%;
+    }
+  
+    .carousel-image {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,147 @@
+@import '../../app.scss';
+
+body, html {
+  margin: 0;
+  overflow-x: hidden; /* Ensure no horizontal scroll */
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+  }
+
+.cus-h1 {
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.textContain {
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url('../../Images/bricks.jpeg');
+
+  .price {
+    background-color: azure;
+    padding: 10px 20px;
+    width: 200px;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  @include mobile {
+    background-image: none;
+  }
+
+}
+
+
+
+.slider-background {
+  position: absolute;
+  top: -300px;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the element */
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place behind the content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.slider-background p {
+  color: rgb(9, 7, 7);
+  font-size: 50px;
+  margin: 0;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.slider-text {
+  font-family: "Poetsen One", sans-serif;
+ 
+}
+
+.home-container {
+  position: relative;
+  z-index: 0;
+  
+}
+
+.carousel {
+  position: relative;
+  z-index: 2; 
+}
+
+.text-center {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+/* Bubble animation */
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+.home-container {
+  overflow-x: hidden; /* Prevents horizontal scrolling but allows vertical scrolling */
+}
+
+.bubble-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevents bubbles from creating scrollbars */
+
+}
+
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(195, 250, 250, 0.6);
+  border-radius: 50%;
+  animation: moveUp 8s infinite;
+
+  @include mobile {
+    animation: none;
+  }
+}
+
+.bubble-purp {
+  background-color: rgb(214, 174, 252);
+}
+
+.bubble-green {
+  background-color: rgb(179, 252, 207);
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1.5);
+    opacity: 0;
+  }
+}
+
