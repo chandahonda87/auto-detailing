@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/https//chandahonda87.github.io/auto-detailing/static/css/main.c09b1cc5.css",
+    "main.js": "/https//chandahonda87.github.io/auto-detailing/static/js/main.5e2cf977.js",
+    "static/media/trunk.png": "/https//chandahonda87.github.io/auto-detailing/static/media/trunk.8114a4e57b3d023baefe.png",
+    "static/media/BA.jpg": "/https//chandahonda87.github.io/auto-detailing/static/media/BA.ab242be1731dd3fd5d36.jpg",
+    "static/media/ExterE.jpg": "/https//chandahonda87.github.io/auto-detailing/static/media/ExterE.b909430930ccd2be1d54.jpg",
+    "static/media/ExterD.jpg": "/https//chandahonda87.github.io/auto-detailing/static/media/ExterD.fcf4fccde4a81d65a4f2.jpg",
+    "static/media/BB.jpg": "/https//chandahonda87.github.io/auto-detailing/static/media/BB.a576852573150199afcc.jpg",
+    "static/media/ExterB.jpeg": "/https//chandahonda87.github.io/auto-detailing/static/media/ExterB.c5b506b104351a2ce62f.jpeg",
+    "static/media/InterB.jpeg": "/https//chandahonda87.github.io/auto-detailing/static/media/InterB.f710e0df23f316cc1306.jpeg",
+    "static/media/BD.jpeg": "/https//chandahonda87.github.io/auto-detailing/static/media/BD.ba693fe51c77e036fe74.jpeg",
+    "static/media/ExterA.jpeg": "/https//chandahonda87.github.io/auto-detailing/static/media/ExterA.a30d3c2ee5eacd238a15.jpeg",
+    "static/media/BearWolf.png": "/https//chandahonda87.github.io/auto-detailing/static/media/BearWolf.2da82b217b520686e4ae.png",
+    "static/media/bricks.jpeg": "/https//chandahonda87.github.io/auto-detailing/static/media/bricks.b4e0f4903f5c2d7ec811.jpeg",
+    "static/media/InterC.jpeg": "/https//chandahonda87.github.io/auto-detailing/static/media/InterC.d8eb9bebb5cb44e05e58.jpeg",
+    "static/media/headlightsA.jpeg": "/https//chandahonda87.github.io/auto-detailing/static/media/headlightsA.b0a7275cc4b5afa189b8.jpeg",
+    "static/media/car.png": "/https//chandahonda87.github.io/auto-detailing/static/media/car.869b06ed982827380b47.png",
+    "static/media/slick.svg": "/https//chandahonda87.github.io/auto-detailing/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/https//chandahonda87.github.io/auto-detailing/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/https//chandahonda87.github.io/auto-detailing/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/https//chandahonda87.github.io/auto-detailing/index.html",
+    "static/media/slick.woff": "/https//chandahonda87.github.io/auto-detailing/static/media/slick.295183786cd8a1389865.woff",
+    "main.c09b1cc5.css.map": "/https//chandahonda87.github.io/auto-detailing/static/css/main.c09b1cc5.css.map",
+    "main.5e2cf977.js.map": "/https//chandahonda87.github.io/auto-detailing/static/js/main.5e2cf977.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c09b1cc5.css",
+    "static/js/main.5e2cf977.js"
+  ]
+}
