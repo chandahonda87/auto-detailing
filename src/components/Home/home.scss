@@ -81,6 +81,17 @@ body, html {
   
 }
 
+.home-container a {
+  pointer-events: auto; /* Ensure the link is clickable */
+  z-index: 10; /* Make sure it's on top of other elements */
+  display: inline-block; /* Make sure the link isn't collapsed */
+}
+
+.home-container .flex {
+  position: relative; /* Ensure flex items aren't colliding */
+}
+
+
 .carousel {
   position: relative;
   z-index: 2; 
