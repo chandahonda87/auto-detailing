@@ -14,3 +14,15 @@ h2 {
 .footer {
   margin-top: 20px;
 }
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 760px) {
+  .poetsen-one {
+    font-size: medium;
+    color: black;
+  }
+
+  .footer {
+    height: 80px;
+  }
+}

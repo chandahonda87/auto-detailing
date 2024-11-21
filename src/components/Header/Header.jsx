@@ -18,7 +18,7 @@ function Header() {
           <Link to="/">
             <h1 className="poetsen-one-regular flex">BearWolf 
             <img src={car} alt='car icon' className='car' />
-            Detailing
+            <span>Detailing</span>
             </h1>
           </Link>
 

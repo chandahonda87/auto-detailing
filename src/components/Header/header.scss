@@ -11,6 +11,10 @@
       align-items: center;
       text-align: center;
       margin-left: 50px;
+
+      span {
+        display: none;
+      }
     }
   }
   
@@ -27,8 +31,13 @@
 
   .car {
     width: 5%;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    @include mobile {
+      width: 20%;
+      margin-left: 20px;
+    }
   }
 
   .banner {
@@ -37,9 +46,4 @@
     }
   }
 
-svg {
-  @include mobile {
-  
-  }
-}
   
