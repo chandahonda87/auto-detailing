@@ -14,8 +14,7 @@ const router = createBrowserRouter(
       <Route path='service' element={<Service />} />
       <Route path='portfolio' element={<Portfolio />} />
     </Route>
-  ),
-  { basename: '/auto-detailing' }
+  )
 )
 
 
