@@ -14,6 +14,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  
 
   .autoHr {
     font-weight: 600;
@@ -74,6 +75,7 @@
   display: flex;
   max-width: 1366px;
   margin: auto;
+  margin-bottom: 200px;
  
   @include mobile {
     flex-direction: column;
