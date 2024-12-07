@@ -32,7 +32,7 @@ function Home() {
       {/* Instagram Link */}
       <i className="fab fa-instagram text-xl flex items-center mt-2 sm:mt-0" aria-hidden="true">
         <a
-          href="https://www.instagram.com/cleanwashdetailing619?igsh=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"
+          href="https://www.instagram.com/bearwolf_auto_detailing/profilecard/?igsh=NTc4MTIwNjQ2YQ%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline ml-2 roboto-bold"

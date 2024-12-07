@@ -10,7 +10,7 @@ function Footer() {
         <div className="mb-6 md:mb-0 flex items-center space-x-4">
             <h1 className="poetsen-one text-xl font-bold">DM for more info</h1>
           <a
-            href="https://www.instagram.com/cleanwashdetailing619?igsh=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"
+            href="https://www.instagram.com/bearwolf_auto_detailing/profilecard/?igsh=NTc4MTIwNjQ2YQ%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:text-blue-500 transition-colors"
